@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDF693915A68A6800298BA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFDF693815A68A6800298BA5 /* Cocoa.framework */; };
+		EFDF694315A68A6800298BA5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFDF694115A68A6800298BA5 /* InfoPlist.strings */; };
+		EFDF694515A68A6800298BA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDF694415A68A6800298BA5 /* main.m */; };
+		EFDF694915A68A6800298BA5 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = EFDF694715A68A6800298BA5 /* Credits.rtf */; };
+		EFDF694C15A68A6800298BA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDF694B15A68A6800298BA5 /* AppDelegate.m */; };
+		EFDF694F15A68A6900298BA5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFDF694D15A68A6900298BA5 /* MainMenu.xib */; };
+		EFDF695C15A68B2300298BA5 /* ZNLogARC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFDF695B15A68B2300298BA5 /* ZNLogARC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFDF693415A68A6800298BA5 /* MediaControlX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaControlX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDF693815A68A6800298BA5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		EFDF693B15A68A6800298BA5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		EFDF693C15A68A6800298BA5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		EFDF693D15A68A6800298BA5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFDF694015A68A6800298BA5 /* MediaControlX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MediaControlX-Info.plist"; sourceTree = "<group>"; };
+		EFDF694215A68A6800298BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFDF694415A68A6800298BA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFDF694615A68A6800298BA5 /* MediaControlX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MediaControlX-Prefix.pch"; sourceTree = "<group>"; };
+		EFDF694815A68A6800298BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		EFDF694A15A68A6800298BA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFDF694B15A68A6800298BA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFDF694E15A68A6900298BA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EFDF695A15A68B2300298BA5 /* ZNLogARC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZNLogARC.h; path = ../../../../IACSource/MyUtilities/Cocoa/ZNLogARC.h; sourceTree = "<group>"; };
+		EFDF695B15A68B2300298BA5 /* ZNLogARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZNLogARC.m; path = ../../../../IACSource/MyUtilities/Cocoa/ZNLogARC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDF693115A68A6800298BA5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF693915A68A6800298BA5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDF692915A68A6800298BA5 = {
+			isa = PBXGroup;
+			children = (
+				EFDF695615A68ADE00298BA5 /* Utilities */,
+				EFDF693E15A68A6800298BA5 /* MediaControlX */,
+				EFDF693715A68A6800298BA5 /* Frameworks */,
+				EFDF693515A68A6800298BA5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDF693515A68A6800298BA5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF693415A68A6800298BA5 /* MediaControlX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDF693715A68A6800298BA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF693815A68A6800298BA5 /* Cocoa.framework */,
+				EFDF693A15A68A6800298BA5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFDF693A15A68A6800298BA5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF693B15A68A6800298BA5 /* AppKit.framework */,
+				EFDF693C15A68A6800298BA5 /* CoreData.framework */,
+				EFDF693D15A68A6800298BA5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		EFDF693E15A68A6800298BA5 /* MediaControlX */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF694A15A68A6800298BA5 /* AppDelegate.h */,
+				EFDF694B15A68A6800298BA5 /* AppDelegate.m */,
+				EFDF694D15A68A6900298BA5 /* MainMenu.xib */,
+				EFDF693F15A68A6800298BA5 /* Supporting Files */,
+			);
+			path = MediaControlX;
+			sourceTree = "<group>";
+		};
+		EFDF693F15A68A6800298BA5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF694015A68A6800298BA5 /* MediaControlX-Info.plist */,
+				EFDF694115A68A6800298BA5 /* InfoPlist.strings */,
+				EFDF694415A68A6800298BA5 /* main.m */,
+				EFDF694615A68A6800298BA5 /* MediaControlX-Prefix.pch */,
+				EFDF694715A68A6800298BA5 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFDF695615A68ADE00298BA5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF695A15A68B2300298BA5 /* ZNLogARC.h */,
+				EFDF695B15A68B2300298BA5 /* ZNLogARC.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDF693315A68A6800298BA5 /* MediaControlX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDF695215A68A6900298BA5 /* Build configuration list for PBXNativeTarget "MediaControlX" */;
+			buildPhases = (
+				EFDF693015A68A6800298BA5 /* Sources */,
+				EFDF693115A68A6800298BA5 /* Frameworks */,
+				EFDF693215A68A6800298BA5 /* Resources */,
+				EFDF695515A68A9600298BA5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MediaControlX;
+			productName = MediaControlX;
+			productReference = EFDF693415A68A6800298BA5 /* MediaControlX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDF692B15A68A6800298BA5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Hobby;
+			};
+			buildConfigurationList = EFDF692E15A68A6800298BA5 /* Build configuration list for PBXProject "MediaControlX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFDF692915A68A6800298BA5;
+			productRefGroup = EFDF693515A68A6800298BA5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDF693315A68A6800298BA5 /* MediaControlX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDF693215A68A6800298BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF694315A68A6800298BA5 /* InfoPlist.strings in Resources */,
+				EFDF694915A68A6800298BA5 /* Credits.rtf in Resources */,
+				EFDF694F15A68A6900298BA5 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EFDF695515A68A9600298BA5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = /usr/local/bin/plistVersionIncrement.sh;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDF693015A68A6800298BA5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF694515A68A6800298BA5 /* main.m in Sources */,
+				EFDF694C15A68A6800298BA5 /* AppDelegate.m in Sources */,
+				EFDF695C15A68B2300298BA5 /* ZNLogARC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFDF694115A68A6800298BA5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDF694215A68A6800298BA5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFDF694715A68A6800298BA5 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDF694815A68A6800298BA5 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		EFDF694D15A68A6900298BA5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFDF694E15A68A6900298BA5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFDF695015A68A6900298BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EFDF695115A68A6900298BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EFDF695315A68A6900298BA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaControlX/MediaControlX-Prefix.pch";
+				INFOPLIST_FILE = "MediaControlX/MediaControlX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFDF695415A68A6900298BA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MediaControlX/MediaControlX-Prefix.pch";
+				INFOPLIST_FILE = "MediaControlX/MediaControlX-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDF692E15A68A6800298BA5 /* Build configuration list for PBXProject "MediaControlX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDF695015A68A6900298BA5 /* Debug */,
+				EFDF695115A68A6900298BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDF695215A68A6900298BA5 /* Build configuration list for PBXNativeTarget "MediaControlX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDF695315A68A6900298BA5 /* Debug */,
+				EFDF695415A68A6900298BA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDF692B15A68A6800298BA5 /* Project object */;
+}
